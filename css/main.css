@@ -60,6 +60,24 @@ p {
     height: 275px;
 }
 
+a:focus {
+    outline: 3px solid #f4b886;
+}
+
+a:visited {
+    color: #fbb13c;
+}
+
+a:hover {
+    background: #fcdfa6;
+    color: #a18276;
+}
+
+footer {
+    margin-left: 250px;
+    padding-bottom: 10px;
+}
+
 @media screen and (max-width: 450px) {
     #container{
         width: 100%;
